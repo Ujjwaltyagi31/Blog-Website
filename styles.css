@@ -1,0 +1,86 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a comfortable font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: linear-gradient(180deg,red,yellow,pink);
+}
+
+/* Style the header */
+header {
+    background-color: #2a2929;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Style the main content */
+main {
+    width: 80%;
+    margin: 2em auto;
+}
+
+/* Style blog posts */
+#blog-posts {
+    margin-bottom: 2em;
+}
+
+.blog-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.blog-post h3 {
+    margin-bottom: 0.5em;
+}
+
+.blog-post p {
+    margin: 0;
+}
+
+/* Style the form */
+#new-post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+#new-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+#new-post label {
+    margin-top: 0.5em;
+}
+
+#new-post input, #new-post textarea {
+    margin-top: 0.2em;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#new-post button {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#new-post button:hover {
+    background-color: #555;
+}
